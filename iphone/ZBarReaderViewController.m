@@ -489,6 +489,10 @@ AVSessionPresetForUIVideoQuality (UIImagePickerControllerQualityType quality)
     rotating = NO;
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 - (ZBarReaderView*) readerView
 {
     // force view to load
